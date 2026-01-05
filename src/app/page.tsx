@@ -110,29 +110,34 @@ export default function Home() {
 
       {/* ABOUT SECTION */}
       <section id="about" className="py-24 relative bg-white" aria-labelledby="about-heading">
-        <div className="container-pad grid lg:grid-cols-12 gap-12">
-          <div className="lg:col-span-5 relative">
-            <div className="sticky top-24">
-              <h2 id="about-heading" className="text-4xl font-display font-bold mb-6 text-slate-900">ENGINEERING <span className="text-[#0047AB]">EXCELLENCE</span></h2>
-              <p className="text-slate-600 leading-relaxed mb-8 text-lg">
-                {companyProfile.intro}
-              </p>
-              <div className="bg-slate-50 p-8 border-l-4 border-[#0047AB] rounded-r-lg">
-                <h4 className="text-slate-900 font-bold mb-2 uppercase tracking-wide text-sm">Our Mission</h4>
-                <p className="text-slate-600 italic">"{companyProfile.mission}"</p>
+        <div className="container-pad">
+          <div className="mb-16 text-center">
+            <span className="text-[#0047AB] uppercase tracking-widest text-sm font-bold block mb-2">Our Story</span>
+            <h2 id="about-heading" className="text-4xl md:text-5xl font-display font-bold text-slate-900">ENGINEERING <span className="text-[#0047AB]">EXCELLENCE</span></h2>
+          </div>
+          <div className="grid lg:grid-cols-12 gap-12">
+            <div className="lg:col-span-5 relative">
+              <div className="sticky top-24">
+                <p className="text-slate-600 leading-relaxed mb-8 text-lg">
+                  {companyProfile.intro}
+                </p>
+                <div className="bg-slate-50 p-8 border-l-4 border-[#0047AB] rounded-r-lg">
+                  <h4 className="text-slate-900 font-bold mb-2 uppercase tracking-wide text-sm">Our Mission</h4>
+                  <p className="text-slate-600 italic">"{companyProfile.mission}"</p>
+                </div>
               </div>
             </div>
-          </div>
-          <div className="lg:col-span-7">
-            <div className="mb-8">
-              <h3 className="text-xl font-bold mb-6 text-slate-900">Operational Regions</h3>
-              <div className="grid sm:grid-cols-2 gap-4">
-                {companyProfile.regions.map((region, i) => (
-                  <div key={i} className="flex items-center gap-3 p-4 bg-white border border-slate-100 shadow-sm hover:shadow-md hover:border-[#0047AB] transition-all rounded">
-                    <span className="w-2 h-2 bg-[#0047AB] rounded-full"></span>
-                    <span className="text-slate-600 font-medium">{region}</span>
-                  </div>
-                ))}
+            <div className="lg:col-span-7">
+              <div className="mb-8">
+                <h3 className="text-xl font-bold mb-6 text-slate-900">Operational Regions</h3>
+                <div className="grid sm:grid-cols-2 gap-4">
+                  {companyProfile.regions.map((region, i) => (
+                    <div key={i} className="flex items-center gap-3 p-4 bg-white border border-slate-100 shadow-sm hover:shadow-md hover:border-[#0047AB] transition-all rounded">
+                      <span className="w-2 h-2 bg-[#0047AB] rounded-full"></span>
+                      <span className="text-slate-600 font-medium">{region}</span>
+                    </div>
+                  ))}
+                </div>
               </div>
             </div>
           </div>
@@ -169,14 +174,9 @@ export default function Home() {
       {/* PROJECTS SECTION */}
       <section id="projects" className="py-24 bg-white" aria-labelledby="projects-heading">
         <div className="container-pad">
-          <div className="flex flex-col md:flex-row justify-between items-end mb-16 gap-6">
-            <div>
-              <span className="text-[#0047AB] uppercase tracking-widest text-sm font-bold block mb-2">Portfolio</span>
-              <h2 id="projects-heading" className="text-4xl md:text-5xl font-display font-bold text-slate-900">FEATURED WORKS</h2>
-            </div>
-            <a href="#" className="flex items-center gap-2 text-slate-500 hover:text-[#0047AB] transition-colors uppercase tracking-widest text-sm font-bold">
-              View All Projects <span>→</span>
-            </a>
+          <div className="mb-16 text-center">
+            <span className="text-[#0047AB] uppercase tracking-widest text-sm font-bold block mb-2">Portfolio</span>
+            <h2 id="projects-heading" className="text-4xl md:text-5xl font-display font-bold text-slate-900">FEATURED WORKS</h2>
           </div>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -200,8 +200,11 @@ export default function Home() {
       {/* METHODOLOGY - LIGHT VERSION */}
       <section id="methodology" className="py-24 bg-slate-50" aria-labelledby="methodology-heading">
         <div className="container-pad">
+          <div className="mb-16 text-center">
+            <span className="text-[#0047AB] uppercase tracking-widest text-sm font-bold block mb-2">Our Process</span>
+            <h2 id="methodology-heading" className="text-4xl md:text-5xl font-display font-bold text-slate-900">HOW WE BUILD</h2>
+          </div>
           <div className="max-w-4xl mx-auto">
-            <h2 id="methodology-heading" className="text-3xl font-display font-bold mb-10 text-slate-900 text-center">HOW WE BUILD</h2>
             <div className="space-y-8">
               {methodology.map((phase, i) => (
                 <div key={i} className="relative pl-10 border-l border-slate-200 pb-8 last:pb-0 last:border-0">
@@ -225,36 +228,38 @@ export default function Home() {
       {/* FOOTER */}
       <footer id="contact" className="bg-white pt-24 pb-12 border-t border-slate-200" aria-labelledby="contact-heading">
         <div className="container-pad">
-          <div className="grid md:grid-cols-4 gap-12 mb-20">
-            <div className="md:col-span-2">
-              <h2 id="contact-heading" className="text-4xl lg:text-5xl font-display font-bold text-slate-900 mb-8">
-                READY TO <span className="text-[#0047AB]">BUILD?</span>
-              </h2>
-              <p className="text-slate-600 max-w-md mb-8 text-lg">
-                Contact us today for a consultation on your next construction or infrastructure project.
-              </p>
-              <div className="flex flex-col gap-4">
-                <div>
-                  <p className="text-sm text-slate-500 uppercase tracking-wider mb-2">Office Phone</p>
-                  <a href="tel:+251116299824" className="text-xl font-bold text-[#0047AB] hover:text-slate-900 transition-colors">
-                    +251 116 29 98 24 / +251 116 29 98 25
-                  </a>
-                </div>
-                <a href={`mailto:${companyProfile.email}`} className="text-xl text-slate-600 hover:text-[#0047AB] transition-colors">
-                  {companyProfile.email}
-                </a>
-              </div>
+          <div className="mb-16 text-center">
+            <span className="text-[#0047AB] uppercase tracking-widest text-sm font-bold block mb-2">Get In Touch</span>
+            <h2 id="contact-heading" className="text-4xl md:text-5xl font-display font-bold text-slate-900">
+              READY TO <span className="text-[#0047AB]">BUILD?</span>
+            </h2>
+            <p className="text-slate-600 max-w-2xl mx-auto mt-6 text-lg">
+              Contact us today for a consultation on your next construction or infrastructure project.
+            </p>
+          </div>
+
+          <div className="grid md:grid-cols-2 gap-12 mb-20 max-w-4xl mx-auto">
+            <div className="text-center md:text-left">
+              <h4 className="text-slate-900 uppercase tracking-widest text-sm font-bold mb-4">Phone</h4>
+              <a href="tel:+251116299824" className="text-xl font-bold text-[#0047AB] hover:text-slate-900 transition-colors block mb-2">
+                +251 116 29 98 24
+              </a>
+              <a href="tel:+251116299825" className="text-xl font-bold text-[#0047AB] hover:text-slate-900 transition-colors block mb-4">
+                +251 116 29 98 25
+              </a>
+              <a href={`mailto:${companyProfile.email}`} className="text-lg text-slate-600 hover:text-[#0047AB] transition-colors">
+                {companyProfile.email}
+              </a>
             </div>
 
-            <div className="space-y-6">
-              <h4 className="text-slate-900 uppercase tracking-widest text-sm font-bold">Office</h4>
-              <p className="text-slate-600">
+            <div className="text-center md:text-left">
+              <h4 className="text-slate-900 uppercase tracking-widest text-sm font-bold mb-4">Office</h4>
+              <p className="text-slate-600 leading-relaxed">
                 {companyProfile.address}<br />
                 {companyProfile.box}<br />
                 Addis Ababa, Ethiopia
               </p>
             </div>
-
           </div>
 
           <div className="border-t border-slate-100 pt-8 flex flex-col md:flex-row justify-between items-center gap-4 text-xs text-slate-500 uppercase tracking-wider">
