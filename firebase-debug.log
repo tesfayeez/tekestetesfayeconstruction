@@ -1,0 +1,180 @@
+[debug] [2026-01-05T15:21:47.495Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2026-01-05T15:21:47.498Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2026-01-05T15:21:47.498Z] > authorizing via signed-in user (dev@appecho-labs.com)
+[debug] [2026-01-05T15:21:47.499Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2026-01-05T15:21:47.499Z] > authorizing via signed-in user (dev@appecho-labs.com)
+[debug] [2026-01-05T15:21:47.500Z] Checked if tokens are valid: false, expires at: 1767623996584
+[debug] [2026-01-05T15:21:47.501Z] Checked if tokens are valid: false, expires at: 1767623996584
+[debug] [2026-01-05T15:21:47.502Z] > refreshing access token with scopes: []
+[debug] [2026-01-05T15:21:47.503Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2026-01-05T15:21:47.504Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2026-01-05T15:21:47.507Z] Checked if tokens are valid: false, expires at: 1767623996584
+[debug] [2026-01-05T15:21:47.507Z] Checked if tokens are valid: false, expires at: 1767623996584
+[debug] [2026-01-05T15:21:47.507Z] > refreshing access token with scopes: []
+[debug] [2026-01-05T15:21:47.507Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2026-01-05T15:21:47.507Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2026-01-05T15:21:47.508Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2026-01-05T15:21:47.508Z] > authorizing via signed-in user (dev@appecho-labs.com)
+[debug] [2026-01-05T15:21:47.508Z] Checked if tokens are valid: false, expires at: 1767623996584
+[debug] [2026-01-05T15:21:47.508Z] Checked if tokens are valid: false, expires at: 1767623996584
+[debug] [2026-01-05T15:21:47.509Z] > refreshing access token with scopes: []
+[debug] [2026-01-05T15:21:47.510Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2026-01-05T15:21:47.510Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2026-01-05T15:21:47.502Z] > authorizing via signed-in user (dev@appecho-labs.com)
+[debug] [2026-01-05T15:21:47.502Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2026-01-05T15:21:47.503Z] > authorizing via signed-in user (dev@appecho-labs.com)
+[debug] [2026-01-05T15:21:47.503Z] Checked if tokens are valid: false, expires at: 1767623996584
+[debug] [2026-01-05T15:21:47.504Z] Checked if tokens are valid: false, expires at: 1767623996584
+[debug] [2026-01-05T15:21:47.505Z] > refreshing access token with scopes: []
+[debug] [2026-01-05T15:21:47.506Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2026-01-05T15:21:47.507Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2026-01-05T15:21:47.509Z] Checked if tokens are valid: false, expires at: 1767623996584
+[debug] [2026-01-05T15:21:47.510Z] Checked if tokens are valid: false, expires at: 1767623996584
+[debug] [2026-01-05T15:21:47.510Z] > refreshing access token with scopes: []
+[debug] [2026-01-05T15:21:47.511Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2026-01-05T15:21:47.511Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2026-01-05T15:21:47.513Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2026-01-05T15:21:47.514Z] > authorizing via signed-in user (dev@appecho-labs.com)
+[debug] [2026-01-05T15:21:47.514Z] Checked if tokens are valid: false, expires at: 1767623996584
+[debug] [2026-01-05T15:21:47.514Z] Checked if tokens are valid: false, expires at: 1767623996584
+[debug] [2026-01-05T15:21:47.514Z] > refreshing access token with scopes: []
+[debug] [2026-01-05T15:21:47.514Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2026-01-05T15:21:47.514Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2026-01-05T15:21:47.679Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2026-01-05T15:21:47.688Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2026-01-05T15:21:47.679Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2026-01-05T15:21:47.736Z] >>> [apiv2][query] GET https://cloudbilling.googleapis.com/v1/projects/glucosegenius-524fa/billingInfo [none]
+[debug] [2026-01-05T15:21:47.688Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2026-01-05T15:21:47.741Z] >>> [apiv2][query] GET https://cloudbilling.googleapis.com/v1/projects/glucosegenius-524fa/billingInfo [none]
+[debug] [2026-01-05T15:21:47.738Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2026-01-05T15:21:47.738Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2026-01-05T15:21:47.761Z] >>> [apiv2][query] GET https://cloudbilling.googleapis.com/v1/projects/glucosegenius-524fa/billingInfo [none]
+[debug] [2026-01-05T15:21:47.743Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2026-01-05T15:21:47.743Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2026-01-05T15:21:47.766Z] >>> [apiv2][query] GET https://cloudbilling.googleapis.com/v1/projects/glucosegenius-524fa/billingInfo [none]
+[debug] [2026-01-05T15:21:47.763Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2026-01-05T15:21:47.763Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2026-01-05T15:21:47.779Z] >>> [apiv2][query] GET https://cloudbilling.googleapis.com/v1/projects/glucosegenius-524fa/billingInfo [none]
+[debug] [2026-01-05T15:21:47.768Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2026-01-05T15:21:47.768Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2026-01-05T15:21:47.783Z] >>> [apiv2][query] GET https://cloudbilling.googleapis.com/v1/projects/glucosegenius-524fa/billingInfo [none]
+[debug] [2026-01-05T15:21:48.073Z] <<< [apiv2][status] GET https://cloudbilling.googleapis.com/v1/projects/glucosegenius-524fa/billingInfo 200
+[debug] [2026-01-05T15:21:48.073Z] <<< [apiv2][body] GET https://cloudbilling.googleapis.com/v1/projects/glucosegenius-524fa/billingInfo {"name":"projects/glucosegenius-524fa/billingInfo","projectId":"glucosegenius-524fa","billingAccountName":"","billingEnabled":false}
+[debug] [2026-01-05T15:21:48.082Z] Checked if tokens are valid: true, expires at: 1767627942763
+[debug] [2026-01-05T15:21:48.082Z] Checked if tokens are valid: true, expires at: 1767627942763
+[debug] [2026-01-05T15:21:48.090Z] Checked if tokens are valid: true, expires at: 1767627942763
+[debug] [2026-01-05T15:21:48.091Z] Checked if tokens are valid: true, expires at: 1767627942763
+[debug] [2026-01-05T15:21:48.091Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/glucosegenius-524fa/services/firebasedataconnect.googleapis.com [none]
+[debug] [2026-01-05T15:21:48.091Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/glucosegenius-524fa/services/firebasedataconnect.googleapis.com x-goog-quota-user=projects/glucosegenius-524fa
+[debug] [2026-01-05T15:21:48.093Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/glucosegenius-524fa/services/firebaseio.com [none]
+[debug] [2026-01-05T15:21:48.093Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/glucosegenius-524fa/services/firebaseio.com x-goog-quota-user=projects/glucosegenius-524fa
+[debug] [2026-01-05T15:21:48.100Z] <<< [apiv2][status] GET https://cloudbilling.googleapis.com/v1/projects/glucosegenius-524fa/billingInfo 200
+[debug] [2026-01-05T15:21:48.100Z] <<< [apiv2][body] GET https://cloudbilling.googleapis.com/v1/projects/glucosegenius-524fa/billingInfo {"name":"projects/glucosegenius-524fa/billingInfo","projectId":"glucosegenius-524fa","billingAccountName":"","billingEnabled":false}
+[debug] [2026-01-05T15:21:48.100Z] Checked if tokens are valid: true, expires at: 1767627942763
+[debug] [2026-01-05T15:21:48.100Z] Checked if tokens are valid: true, expires at: 1767627942763
+[debug] [2026-01-05T15:21:48.101Z] Checked if tokens are valid: true, expires at: 1767627942763
+[debug] [2026-01-05T15:21:48.101Z] Checked if tokens are valid: true, expires at: 1767627942763
+[debug] [2026-01-05T15:21:48.101Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/glucosegenius-524fa/services/firebasedataconnect.googleapis.com [none]
+[debug] [2026-01-05T15:21:48.101Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/glucosegenius-524fa/services/firebasedataconnect.googleapis.com x-goog-quota-user=projects/glucosegenius-524fa
+[debug] [2026-01-05T15:21:48.102Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/glucosegenius-524fa/services/firebaseio.com [none]
+[debug] [2026-01-05T15:21:48.102Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/glucosegenius-524fa/services/firebaseio.com x-goog-quota-user=projects/glucosegenius-524fa
+[debug] [2026-01-05T15:21:48.122Z] <<< [apiv2][status] GET https://cloudbilling.googleapis.com/v1/projects/glucosegenius-524fa/billingInfo 200
+[debug] [2026-01-05T15:21:48.124Z] <<< [apiv2][status] GET https://cloudbilling.googleapis.com/v1/projects/glucosegenius-524fa/billingInfo 200
+[debug] [2026-01-05T15:21:48.124Z] <<< [apiv2][body] GET https://cloudbilling.googleapis.com/v1/projects/glucosegenius-524fa/billingInfo {"name":"projects/glucosegenius-524fa/billingInfo","projectId":"glucosegenius-524fa","billingAccountName":"","billingEnabled":false}
+[debug] [2026-01-05T15:21:48.124Z] Checked if tokens are valid: true, expires at: 1767627942763
+[debug] [2026-01-05T15:21:48.124Z] Checked if tokens are valid: true, expires at: 1767627942763
+[debug] [2026-01-05T15:21:48.125Z] Checked if tokens are valid: true, expires at: 1767627942763
+[debug] [2026-01-05T15:21:48.125Z] Checked if tokens are valid: true, expires at: 1767627942763
+[debug] [2026-01-05T15:21:48.125Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/glucosegenius-524fa/services/firebasedataconnect.googleapis.com [none]
+[debug] [2026-01-05T15:21:48.125Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/glucosegenius-524fa/services/firebasedataconnect.googleapis.com x-goog-quota-user=projects/glucosegenius-524fa
+[debug] [2026-01-05T15:21:48.126Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/glucosegenius-524fa/services/firebaseio.com [none]
+[debug] [2026-01-05T15:21:48.126Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/glucosegenius-524fa/services/firebaseio.com x-goog-quota-user=projects/glucosegenius-524fa
+[debug] [2026-01-05T15:21:48.123Z] <<< [apiv2][body] GET https://cloudbilling.googleapis.com/v1/projects/glucosegenius-524fa/billingInfo {"name":"projects/glucosegenius-524fa/billingInfo","projectId":"glucosegenius-524fa","billingAccountName":"","billingEnabled":false}
+[debug] [2026-01-05T15:21:48.126Z] Checked if tokens are valid: true, expires at: 1767627942768
+[debug] [2026-01-05T15:21:48.126Z] Checked if tokens are valid: true, expires at: 1767627942768
+[debug] [2026-01-05T15:21:48.131Z] Checked if tokens are valid: true, expires at: 1767627942768
+[debug] [2026-01-05T15:21:48.132Z] Checked if tokens are valid: true, expires at: 1767627942768
+[debug] [2026-01-05T15:21:48.132Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/glucosegenius-524fa/services/firebasedataconnect.googleapis.com [none]
+[debug] [2026-01-05T15:21:48.132Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/glucosegenius-524fa/services/firebasedataconnect.googleapis.com x-goog-quota-user=projects/glucosegenius-524fa
+[debug] [2026-01-05T15:21:48.133Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/glucosegenius-524fa/services/firebaseio.com [none]
+[debug] [2026-01-05T15:21:48.133Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/glucosegenius-524fa/services/firebaseio.com x-goog-quota-user=projects/glucosegenius-524fa
+[debug] [2026-01-05T15:21:48.213Z] <<< [apiv2][status] GET https://cloudbilling.googleapis.com/v1/projects/glucosegenius-524fa/billingInfo 200
+[debug] [2026-01-05T15:21:48.213Z] <<< [apiv2][body] GET https://cloudbilling.googleapis.com/v1/projects/glucosegenius-524fa/billingInfo {"name":"projects/glucosegenius-524fa/billingInfo","projectId":"glucosegenius-524fa","billingAccountName":"","billingEnabled":false}
+[debug] [2026-01-05T15:21:48.214Z] Checked if tokens are valid: true, expires at: 1767627942768
+[debug] [2026-01-05T15:21:48.214Z] Checked if tokens are valid: true, expires at: 1767627942768
+[debug] [2026-01-05T15:21:48.215Z] Checked if tokens are valid: true, expires at: 1767627942768
+[debug] [2026-01-05T15:21:48.215Z] Checked if tokens are valid: true, expires at: 1767627942768
+[debug] [2026-01-05T15:21:48.215Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/glucosegenius-524fa/services/firebasedataconnect.googleapis.com [none]
+[debug] [2026-01-05T15:21:48.215Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/glucosegenius-524fa/services/firebasedataconnect.googleapis.com x-goog-quota-user=projects/glucosegenius-524fa
+[debug] [2026-01-05T15:21:48.216Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/glucosegenius-524fa/services/firebaseio.com [none]
+[debug] [2026-01-05T15:21:48.216Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/glucosegenius-524fa/services/firebaseio.com x-goog-quota-user=projects/glucosegenius-524fa
+[debug] [2026-01-05T15:21:48.277Z] <<< [apiv2][status] GET https://cloudbilling.googleapis.com/v1/projects/glucosegenius-524fa/billingInfo 200
+[debug] [2026-01-05T15:21:48.277Z] <<< [apiv2][body] GET https://cloudbilling.googleapis.com/v1/projects/glucosegenius-524fa/billingInfo {"name":"projects/glucosegenius-524fa/billingInfo","projectId":"glucosegenius-524fa","billingAccountName":"","billingEnabled":false}
+[debug] [2026-01-05T15:21:48.278Z] Checked if tokens are valid: true, expires at: 1767627942768
+[debug] [2026-01-05T15:21:48.278Z] Checked if tokens are valid: true, expires at: 1767627942768
+[debug] [2026-01-05T15:21:48.280Z] Checked if tokens are valid: true, expires at: 1767627942768
+[debug] [2026-01-05T15:21:48.281Z] Checked if tokens are valid: true, expires at: 1767627942768
+[debug] [2026-01-05T15:21:48.281Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/glucosegenius-524fa/services/firebasedataconnect.googleapis.com [none]
+[debug] [2026-01-05T15:21:48.281Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/glucosegenius-524fa/services/firebasedataconnect.googleapis.com x-goog-quota-user=projects/glucosegenius-524fa
+[debug] [2026-01-05T15:21:48.282Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/glucosegenius-524fa/services/firebaseio.com [none]
+[debug] [2026-01-05T15:21:48.282Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/glucosegenius-524fa/services/firebaseio.com x-goog-quota-user=projects/glucosegenius-524fa
+[debug] [2026-01-05T15:21:48.289Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/glucosegenius-524fa/services/firebaseio.com 403
+[debug] [2026-01-05T15:21:48.289Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/glucosegenius-524fa/services/firebaseio.com [omitted]
+[debug] [2026-01-05T15:21:48.345Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/glucosegenius-524fa/services/firebasedataconnect.googleapis.com 403
+[debug] [2026-01-05T15:21:48.345Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/glucosegenius-524fa/services/firebasedataconnect.googleapis.com [omitted]
+[debug] [2026-01-05T15:21:48.350Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/glucosegenius-524fa/services/firebaseio.com 403
+[debug] [2026-01-05T15:21:48.350Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/glucosegenius-524fa/services/firebaseio.com 403
+[debug] [2026-01-05T15:21:48.350Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/glucosegenius-524fa/services/firebaseio.com [omitted]
+[debug] [2026-01-05T15:21:48.350Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/glucosegenius-524fa/services/firebaseio.com [omitted]
+[debug] [2026-01-05T15:21:48.385Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/glucosegenius-524fa/services/firebasedataconnect.googleapis.com 403
+[debug] [2026-01-05T15:21:48.385Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/glucosegenius-524fa/services/firebasedataconnect.googleapis.com [omitted]
+[debug] [2026-01-05T15:21:48.394Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2026-01-05T15:21:48.394Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/glucosegenius-524fa/services/firebasedataconnect.googleapis.com 403
+[debug] [2026-01-05T15:21:48.394Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/glucosegenius-524fa/services/firebasedataconnect.googleapis.com [omitted]
+[debug] [2026-01-05T15:21:48.394Z] > authorizing via signed-in user (dev@appecho-labs.com)
+[debug] [2026-01-05T15:21:48.394Z] Checked if tokens are valid: true, expires at: 1767627942763
+[debug] [2026-01-05T15:21:48.394Z] Checked if tokens are valid: true, expires at: 1767627942763
+[debug] [2026-01-05T15:21:48.394Z] >>> [apiv2][query] GET https://cloudbilling.googleapis.com/v1/projects/glucosegenius-524fa/billingInfo [none]
+[debug] [2026-01-05T15:21:48.396Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/glucosegenius-524fa/services/firebasedataconnect.googleapis.com 403
+[debug] [2026-01-05T15:21:48.396Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/glucosegenius-524fa/services/firebasedataconnect.googleapis.com [omitted]
+[debug] [2026-01-05T15:21:48.399Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/glucosegenius-524fa/services/firebaseio.com 403
+[debug] [2026-01-05T15:21:48.399Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/glucosegenius-524fa/services/firebaseio.com [omitted]
+[debug] [2026-01-05T15:21:48.406Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/glucosegenius-524fa/services/firebasedataconnect.googleapis.com 403
+[debug] [2026-01-05T15:21:48.406Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/glucosegenius-524fa/services/firebasedataconnect.googleapis.com [omitted]
+[debug] [2026-01-05T15:21:48.442Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/glucosegenius-524fa/services/firebaseio.com 403
+[debug] [2026-01-05T15:21:48.442Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/glucosegenius-524fa/services/firebaseio.com [omitted]
+[debug] [2026-01-05T15:21:48.443Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2026-01-05T15:21:48.443Z] > authorizing via signed-in user (dev@appecho-labs.com)
+[debug] [2026-01-05T15:21:48.443Z] Checked if tokens are valid: true, expires at: 1767627942763
+[debug] [2026-01-05T15:21:48.443Z] Checked if tokens are valid: true, expires at: 1767627942763
+[debug] [2026-01-05T15:21:48.444Z] >>> [apiv2][query] GET https://cloudbilling.googleapis.com/v1/projects/glucosegenius-524fa/billingInfo [none]
+[debug] [2026-01-05T15:21:48.451Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/glucosegenius-524fa/services/firebasedataconnect.googleapis.com 403
+[debug] [2026-01-05T15:21:48.451Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/glucosegenius-524fa/services/firebasedataconnect.googleapis.com [omitted]
+[debug] [2026-01-05T15:21:48.494Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2026-01-05T15:21:48.495Z] > authorizing via signed-in user (dev@appecho-labs.com)
+[debug] [2026-01-05T15:21:48.495Z] Checked if tokens are valid: true, expires at: 1767627942768
+[debug] [2026-01-05T15:21:48.495Z] Checked if tokens are valid: true, expires at: 1767627942768
+[debug] [2026-01-05T15:21:48.495Z] >>> [apiv2][query] GET https://cloudbilling.googleapis.com/v1/projects/glucosegenius-524fa/billingInfo [none]
+[debug] [2026-01-05T15:21:48.498Z] <<< [apiv2][status] GET https://cloudbilling.googleapis.com/v1/projects/glucosegenius-524fa/billingInfo 200
+[debug] [2026-01-05T15:21:48.498Z] <<< [apiv2][body] GET https://cloudbilling.googleapis.com/v1/projects/glucosegenius-524fa/billingInfo {"name":"projects/glucosegenius-524fa/billingInfo","projectId":"glucosegenius-524fa","billingAccountName":"","billingEnabled":false}
+[debug] [2026-01-05T15:21:48.499Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2026-01-05T15:21:48.499Z] > authorizing via signed-in user (dev@appecho-labs.com)
+[debug] [2026-01-05T15:21:48.503Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/glucosegenius-524fa/services/firebaseio.com 403
+[debug] [2026-01-05T15:21:48.503Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/glucosegenius-524fa/services/firebaseio.com [omitted]
+[debug] [2026-01-05T15:21:48.539Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2026-01-05T15:21:48.539Z] > authorizing via signed-in user (dev@appecho-labs.com)
+[debug] [2026-01-05T15:21:48.539Z] Checked if tokens are valid: true, expires at: 1767627942768
+[debug] [2026-01-05T15:21:48.539Z] Checked if tokens are valid: true, expires at: 1767627942768
+[debug] [2026-01-05T15:21:48.539Z] >>> [apiv2][query] GET https://cloudbilling.googleapis.com/v1/projects/glucosegenius-524fa/billingInfo [none]
+[debug] [2026-01-05T15:21:48.557Z] <<< [apiv2][status] GET https://cloudbilling.googleapis.com/v1/projects/glucosegenius-524fa/billingInfo 200
+[debug] [2026-01-05T15:21:48.557Z] <<< [apiv2][body] GET https://cloudbilling.googleapis.com/v1/projects/glucosegenius-524fa/billingInfo {"name":"projects/glucosegenius-524fa/billingInfo","projectId":"glucosegenius-524fa","billingAccountName":"","billingEnabled":false}
+[debug] [2026-01-05T15:21:48.558Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2026-01-05T15:21:48.559Z] > authorizing via signed-in user (dev@appecho-labs.com)
+[debug] [2026-01-05T15:21:48.602Z] <<< [apiv2][status] GET https://cloudbilling.googleapis.com/v1/projects/glucosegenius-524fa/billingInfo 200
+[debug] [2026-01-05T15:21:48.602Z] <<< [apiv2][body] GET https://cloudbilling.googleapis.com/v1/projects/glucosegenius-524fa/billingInfo {"name":"projects/glucosegenius-524fa/billingInfo","projectId":"glucosegenius-524fa","billingAccountName":"","billingEnabled":false}
+[debug] [2026-01-05T15:21:48.603Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2026-01-05T15:21:48.604Z] > authorizing via signed-in user (dev@appecho-labs.com)
+[debug] [2026-01-05T15:21:48.634Z] <<< [apiv2][status] GET https://cloudbilling.googleapis.com/v1/projects/glucosegenius-524fa/billingInfo 200
+[debug] [2026-01-05T15:21:48.634Z] <<< [apiv2][body] GET https://cloudbilling.googleapis.com/v1/projects/glucosegenius-524fa/billingInfo {"name":"projects/glucosegenius-524fa/billingInfo","projectId":"glucosegenius-524fa","billingAccountName":"","billingEnabled":false}
+[debug] [2026-01-05T15:21:48.634Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2026-01-05T15:21:48.635Z] > authorizing via signed-in user (dev@appecho-labs.com)

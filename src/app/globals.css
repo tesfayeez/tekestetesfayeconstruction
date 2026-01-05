@@ -1,26 +1,79 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  /* STRICT LIGHT MODE PALETTE */
+
+  --primary-blue: #0047AB;
+  /* Logo Cobalt */
+  --primary-hover: #003380;
+
+  --accent-yellow: #F4E486;
+  /* Logo Yellow */
+  --accent-yellow-dark: #D4C060;
+
+  --bg-white: #ffffff;
+  --bg-slate: #f8fafc;
+  /* Slate 50 */
+  --bg-slate-dark: #e2e8f0;
+  /* Slate 200 */
+
+  --text-main: #0f172a;
+  /* Slate 900 */
+  --text-muted: #475569;
+  /* Slate 600 */
+
+  /* Fonts */
+  --font-display: var(--font-syne), sans-serif;
+  --font-body: var(--font-dm-sans), sans-serif;
+  --font-ethiopic: var(--font-noto-ethiopic), sans-serif;
 }
 
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
+  --font-display: var(--font-display);
+  --font-body: var(--font-body);
+  --font-ethiopic: var(--font-ethiopic);
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+  --color-brand-blue: var(--primary-blue);
+  --color-brand-yellow: var(--accent-yellow);
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background-color: var(--bg-white);
+  color: var(--text-main);
+  font-family: var(--font-body);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-display);
+  color: var(--primary-blue);
+}
+
+/* Utilities */
+.text-brand-blue {
+  color: var(--primary-blue);
+}
+
+.bg-brand-blue {
+  background-color: var(--primary-blue);
+}
+
+.border-brand-blue {
+  border-color: var(--primary-blue);
+}
+
+.container-pad {
+  @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
+}
+
+/* Grid Pattern for Texture */
+.grid-pattern {
+  background-size: 40px 40px;
+  background-image:
+    linear-gradient(to right, #f1f5f9 1px, transparent 1px),
+    linear-gradient(to bottom, #f1f5f9 1px, transparent 1px);
 }
