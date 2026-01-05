@@ -21,7 +21,14 @@ export default function Home() {
         <div className="container-pad flex justify-between items-center">
           <div className="flex items-center gap-3">
             <div className="relative w-12 h-12 overflow-hidden rounded bg-slate-50 border border-slate-200 p-1">
-              <Image src="/logo.svg" alt="Logo" width={48} height={48} className="object-contain w-full h-full rounded-sm" />
+              <Image 
+                src="/logo.svg" 
+                alt="Tekeste Tesfaye Building Contractor Logo - Grade I Construction Company Ethiopia" 
+                width={48} 
+                height={48} 
+                className="object-contain w-full h-full rounded-sm"
+                priority
+              />
             </div>
             <div className="flex flex-col justify-center">
               <span className="font-display font-bold text-lg tracking-wide leading-none text-slate-900">
@@ -57,7 +64,7 @@ export default function Home() {
               FUTURE
             </h1>
             <p className="text-slate-600 text-lg max-w-xl mb-10 leading-relaxed font-medium">
-              Tekeste Tesfaye Building Contractor (Grade I) combines decades of craftsmanship with modern engineering to deliver resilient infrastructure.
+              Tekeste Tesfaye Building Contractor (Grade I) combines 29+ years of craftsmanship with modern engineering to deliver resilient infrastructure across Ethiopia. Specializing in water systems, hospitals, schools, roads, and bridges.
             </p>
             <div className="flex flex-wrap gap-6">
               <a href="#projects" className="px-8 py-4 bg-[#0047AB] text-white font-bold uppercase tracking-widest hover:bg-[#003380] transition-colors shadow-lg hover:shadow-xl rounded-sm">
@@ -73,9 +80,12 @@ export default function Home() {
             <div className="absolute top-0 left-0 w-full h-full overflow-hidden rounded-lg shadow-2xl z-10 bg-white">
               <Image
                 src="https://images.unsplash.com/photo-1541888946425-d81bb19240f5?w=800"
-                alt="Architecture"
+                alt="Modern construction architecture in Ethiopia - Tekeste Tesfaye Building Contractor projects"
                 fill
                 className="object-cover"
+                priority
+                quality={85}
+                sizes="(max-width: 1024px) 100vw, 50vw"
               />
             </div>
             <div className="absolute -bottom-8 -left-8 bg-white p-8 shadow-xl rounded-tr-3xl z-20 border-l-4 border-[#0047AB]">
@@ -99,11 +109,11 @@ export default function Home() {
       </div>
 
       {/* ABOUT SECTION */}
-      <section id="about" className="py-24 relative bg-white">
+      <section id="about" className="py-24 relative bg-white" aria-labelledby="about-heading">
         <div className="container-pad grid lg:grid-cols-12 gap-12">
           <div className="lg:col-span-5 relative">
             <div className="sticky top-24">
-              <h2 className="text-4xl font-display font-bold mb-6 text-slate-900">ENGINEERING <span className="text-[#0047AB]">EXCELLENCE</span></h2>
+              <h2 id="about-heading" className="text-4xl font-display font-bold mb-6 text-slate-900">ENGINEERING <span className="text-[#0047AB]">EXCELLENCE</span></h2>
               <p className="text-slate-600 leading-relaxed mb-8 text-lg">
                 {companyProfile.intro}
               </p>
@@ -130,11 +140,11 @@ export default function Home() {
       </section>
 
       {/* SERVICES SECTION */}
-      <section id="services" className="py-24 bg-slate-50 relative">
+      <section id="services" className="py-24 bg-slate-50 relative" aria-labelledby="services-heading">
         <div className="container-pad relative z-10">
           <div className="mb-16 text-center">
             <span className="text-[#0047AB] uppercase tracking-widest text-sm font-bold block mb-2">Capabilities</span>
-            <h2 className="text-4xl md:text-5xl font-display font-bold text-slate-900">OUR EXPERTISE</h2>
+            <h2 id="services-heading" className="text-4xl md:text-5xl font-display font-bold text-slate-900">OUR EXPERTISE</h2>
           </div>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
@@ -157,12 +167,12 @@ export default function Home() {
       </section>
 
       {/* PROJECTS SECTION */}
-      <section id="projects" className="py-24 bg-white">
+      <section id="projects" className="py-24 bg-white" aria-labelledby="projects-heading">
         <div className="container-pad">
           <div className="flex flex-col md:flex-row justify-between items-end mb-16 gap-6">
             <div>
               <span className="text-[#0047AB] uppercase tracking-widest text-sm font-bold block mb-2">Portfolio</span>
-              <h2 className="text-4xl md:text-5xl font-display font-bold text-slate-900">FEATURED WORKS</h2>
+              <h2 id="projects-heading" className="text-4xl md:text-5xl font-display font-bold text-slate-900">FEATURED WORKS</h2>
             </div>
             <a href="#" className="flex items-center gap-2 text-slate-500 hover:text-[#0047AB] transition-colors uppercase tracking-widest text-sm font-bold">
               View All Projects <span>→</span>
@@ -188,10 +198,10 @@ export default function Home() {
       </section>
 
       {/* METHODOLOGY - LIGHT VERSION */}
-      <section id="methodology" className="py-24 bg-slate-50">
+      <section id="methodology" className="py-24 bg-slate-50" aria-labelledby="methodology-heading">
         <div className="container-pad">
           <div className="max-w-4xl mx-auto">
-            <h2 className="text-3xl font-display font-bold mb-10 text-slate-900 text-center">HOW WE BUILD</h2>
+            <h2 id="methodology-heading" className="text-3xl font-display font-bold mb-10 text-slate-900 text-center">HOW WE BUILD</h2>
             <div className="space-y-8">
               {methodology.map((phase, i) => (
                 <div key={i} className="relative pl-10 border-l border-slate-200 pb-8 last:pb-0 last:border-0">
@@ -213,11 +223,11 @@ export default function Home() {
       </section>
 
       {/* FOOTER */}
-      <footer id="contact" className="bg-white pt-24 pb-12 border-t border-slate-200">
+      <footer id="contact" className="bg-white pt-24 pb-12 border-t border-slate-200" aria-labelledby="contact-heading">
         <div className="container-pad">
           <div className="grid md:grid-cols-4 gap-12 mb-20">
             <div className="md:col-span-2">
-              <h2 className="text-4xl lg:text-5xl font-display font-bold text-slate-900 mb-8">
+              <h2 id="contact-heading" className="text-4xl lg:text-5xl font-display font-bold text-slate-900 mb-8">
                 READY TO <span className="text-[#0047AB]">BUILD?</span>
               </h2>
               <p className="text-slate-600 max-w-md mb-8 text-lg">
@@ -249,7 +259,14 @@ export default function Home() {
 
           <div className="border-t border-slate-100 pt-8 flex flex-col md:flex-row justify-between items-center gap-4 text-xs text-slate-500 uppercase tracking-wider">
             <div className="flex items-center gap-3">
-              <Image src="/logo.svg" alt="Logo" width={32} height={32} className="rounded-sm opacity-80" />
+              <Image 
+                src="/logo.svg" 
+                alt="Tekeste Tesfaye Building Contractor Logo" 
+                width={32} 
+                height={32} 
+                className="rounded-sm opacity-80"
+                loading="lazy"
+              />
               <p>&copy; {new Date().getFullYear()} {companyProfile.name}</p>
             </div>
             <p className="font-bold text-[#0047AB]">Grade I Certified Contractor</p>
