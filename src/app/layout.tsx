@@ -110,7 +110,7 @@ export default function RootLayout({
     alternateName: 'TTBC',
     description: 'Grade I general contractor in Ethiopia specializing in water systems, hospitals, schools, roads, and bridges. 29+ years of experience.',
     url: 'https://tekestetesfayecon.com',
-    logo: 'https://tekestetesfayecon.com/logo.svg',
+    logo: 'https://tekestetesfayecon.com/new_logo.png',
     image: 'https://tekestetesfayecon.com/og-image.jpg',
     address: [
       {

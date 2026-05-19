@@ -13,16 +13,16 @@ export default function WaterSupplySystemBlog() {
       <nav className="bg-slate-50 py-4 border-b border-slate-200">
         <div className="container-pad">
           <div className="flex items-center gap-2 text-sm text-slate-600">
-            <Link href="/" className="hover:text-[#0047AB]">Home</Link>
+            <Link href="/" className="hover:text-[#000000]">Home</Link>
             <span>/</span>
-            <Link href="/blog" className="hover:text-[#0047AB]">Blog</Link>
+            <Link href="/blog" className="hover:text-[#000000]">Blog</Link>
             <span>/</span>
             <span className="text-slate-900 font-medium">Water Supply Systems</span>
           </div>
         </div>
       </nav>
 
-      <section className="py-24 bg-gradient-to-br from-[#0047AB] to-[#003380] text-white">
+      <section className="py-24 bg-gradient-to-br from-[#000000] to-[#0A0A0A] text-white">
         <div className="container-pad max-w-4xl">
           <div className="flex items-center gap-4 mb-6">
             <span className="px-3 py-1 bg-white/10 text-white text-xs font-bold uppercase tracking-wider rounded-full">
@@ -73,7 +73,7 @@ export default function WaterSupplySystemBlog() {
               <li><strong>Assess accessibility:</strong> Road access for construction and maintenance</li>
             </ul>
 
-            <div className="bg-blue-50 p-8 rounded-xl mb-8">
+            <div className="bg-amber-50 p-8 rounded-xl mb-8">
               <h4 className="font-bold text-slate-900 mb-3">Case Example: Oromia Regional Water Project</h4>
               <p className="text-slate-700 mb-4">
                 Using GIS analysis, we identified a spring source at 2,400m elevation serving a valley community at 2,100m. The 300m elevation difference enabled a gravity-fed system—no pumps required, zero operating costs.
@@ -192,16 +192,16 @@ export default function WaterSupplySystemBlog() {
               <li><strong>Climate resilience:</strong> Designs accounting for drought and flooding</li>
             </ul>
 
-            <div className="bg-[#0047AB] text-white p-8 rounded-xl mt-12">
+            <div className="bg-[#000000] text-white p-8 rounded-xl mt-12">
               <h3 className="text-2xl font-bold mb-4">Planning a Water Infrastructure Project?</h3>
               <p className="text-white/90 mb-6">
                 Our water systems team brings 29+ years of experience across 50+ projects. From feasibility studies to final commissioning, we deliver sustainable water infrastructure that transforms communities.
               </p>
               <div className="flex flex-wrap gap-4">
-                <a href="tel:+251116299824" className="px-6 py-3 bg-white text-[#0047AB] font-bold uppercase tracking-wider hover:bg-slate-100 transition-colors rounded-sm text-sm">
+                <a href="tel:+251116299824" className="px-6 py-3 bg-white text-[#000000] font-bold uppercase tracking-wider hover:bg-slate-100 transition-colors rounded-sm text-sm">
                   Call: +251 116 29 98 24
                 </a>
-                <a href="mailto:tekestetesfaye2@gmail.com" className="px-6 py-3 border-2 border-white text-white font-bold uppercase tracking-wider hover:bg-white hover:text-[#0047AB] transition-colors rounded-sm text-sm">
+                <a href="mailto:tekestetesfaye2@gmail.com" className="px-6 py-3 border-2 border-white text-white font-bold uppercase tracking-wider hover:bg-white hover:text-[#000000] transition-colors rounded-sm text-sm">
                   Email Us
                 </a>
               </div>

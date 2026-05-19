@@ -62,7 +62,7 @@ const locations = [
 export default function LocationsPage() {
   return (
     <main className="min-h-screen bg-white">
-      <section className="py-24 bg-gradient-to-br from-[#0047AB] via-[#0052BD] to-[#0066DD] text-white">
+      <section className="py-24 bg-gradient-to-br from-[#000000] via-[#0052BD] to-[#0066DD] text-white">
         <div className="container-pad">
           <div className="max-w-4xl">
             <h1 className="text-5xl md:text-6xl font-display font-bold mb-6 text-white">
@@ -91,10 +91,10 @@ export default function LocationsPage() {
               <Link
                 key={location.slug}
                 href={`/locations/${location.slug}`}
-                className="group bg-white border-2 border-slate-200 rounded-xl p-8 hover:border-[#0047AB] hover:shadow-xl transition-all duration-300"
+                className="group bg-white border-2 border-slate-200 rounded-xl p-8 hover:border-[#000000] hover:shadow-xl transition-all duration-300"
               >
                 <div className="text-5xl mb-4">{location.icon}</div>
-                <h3 className="text-2xl font-display font-bold mb-3 text-slate-900 group-hover:text-[#0047AB] transition-colors">
+                <h3 className="text-2xl font-display font-bold mb-3 text-slate-900 group-hover:text-[#000000] transition-colors">
                   {location.name}
                 </h3>
                 <p className="text-slate-600 mb-6 leading-relaxed">
@@ -110,7 +110,7 @@ export default function LocationsPage() {
                     </span>
                   ))}
                 </div>
-                <div className="flex items-center gap-2 text-[#0047AB] font-bold">
+                <div className="flex items-center gap-2 text-[#000000] font-bold">
                   View Projects
                   <span className="group-hover:translate-x-2 transition-transform">→</span>
                 </div>
@@ -153,7 +153,7 @@ export default function LocationsPage() {
         </div>
       </section>
 
-      <section className="py-24 bg-[#0047AB] text-white">
+      <section className="py-24 bg-[#000000] text-white">
         <div className="container-pad text-center">
           <h2 className="text-4xl font-display font-bold mb-6">
             Start Your Regional Project
@@ -162,10 +162,10 @@ export default function LocationsPage() {
             Contact us to discuss construction services in your region.
           </p>
           <div className="flex flex-wrap gap-4 justify-center">
-            <a href="tel:+251116299824" className="px-8 py-4 bg-white text-[#0047AB] font-bold uppercase tracking-widest hover:bg-slate-100 transition-colors rounded-sm">
+            <a href="tel:+251116299824" className="px-8 py-4 bg-white text-[#000000] font-bold uppercase tracking-widest hover:bg-slate-100 transition-colors rounded-sm">
               Call: +251 116 29 98 24
             </a>
-            <a href="mailto:tekestetesfaye2@gmail.com" className="px-8 py-4 border-2 border-white text-white font-bold uppercase tracking-widest hover:bg-white hover:text-[#0047AB] transition-colors rounded-sm">
+            <a href="mailto:tekestetesfaye2@gmail.com" className="px-8 py-4 border-2 border-white text-white font-bold uppercase tracking-widest hover:bg-white hover:text-[#000000] transition-colors rounded-sm">
               Email Us
             </a>
           </div>

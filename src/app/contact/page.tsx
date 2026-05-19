@@ -10,7 +10,7 @@ export const metadata: Metadata = {
 export default function ContactPage() {
   return (
     <main className="min-h-screen bg-white">
-      <section className="py-24 bg-gradient-to-br from-[#0047AB] to-[#003380] text-white">
+      <section className="py-24 bg-gradient-to-br from-[#000000] to-[#0A0A0A] text-white">
         <div className="container-pad">
           <div className="max-w-4xl">
             <h1 className="text-5xl md:text-6xl font-display font-bold mb-6">
@@ -49,8 +49,8 @@ export default function ContactPage() {
                     Phone
                   </h3>
                   <p className="text-slate-700">
-                    Office: <a href="tel:+251116299824" className="text-[#0047AB] hover:underline">+251 116 29 98 24</a><br />
-                    Office: <a href="tel:+251116299825" className="text-[#0047AB] hover:underline">+251 116 29 98 25</a>
+                    Office: <a href="tel:+251116299824" className="text-[#000000] hover:underline">+251 116 29 98 24</a><br />
+                    Office: <a href="tel:+251116299825" className="text-[#000000] hover:underline">+251 116 29 98 25</a>
                   </p>
                 </div>
 
@@ -60,7 +60,7 @@ export default function ContactPage() {
                     Email
                   </h3>
                   <p className="text-slate-700">
-                    <a href="mailto:tekestetesfaye2@gmail.com" className="text-[#0047AB] hover:underline">
+                    <a href="mailto:tekestetesfaye2@gmail.com" className="text-[#000000] hover:underline">
                       tekestetesfaye2@gmail.com
                     </a>
                   </p>

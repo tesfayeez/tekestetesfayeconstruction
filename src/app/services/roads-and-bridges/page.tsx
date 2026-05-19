@@ -13,16 +13,16 @@ export default function RoadsAndBridgesPage() {
       <nav className="bg-slate-50 py-4 border-b border-slate-200">
         <div className="container-pad">
           <div className="flex items-center gap-2 text-sm text-slate-600">
-            <Link href="/" className="hover:text-[#0047AB]">Home</Link>
+            <Link href="/" className="hover:text-[#000000]">Home</Link>
             <span>/</span>
-            <Link href="/services" className="hover:text-[#0047AB]">Services</Link>
+            <Link href="/services" className="hover:text-[#000000]">Services</Link>
             <span>/</span>
             <span className="text-slate-900 font-medium">Roads & Bridges</span>
           </div>
         </div>
       </nav>
 
-      <section className="py-24 bg-gradient-to-br from-[#0047AB] to-[#003380] text-white">
+      <section className="py-24 bg-gradient-to-br from-[#000000] to-[#0A0A0A] text-white">
         <div className="container-pad">
           <div className="max-w-4xl">
             <div className="inline-block px-4 py-2 bg-white/10 rounded-full text-sm font-bold uppercase tracking-wider mb-6">
@@ -48,23 +48,23 @@ export default function RoadsAndBridgesPage() {
               </p>
               <ul className="space-y-3 text-slate-700">
                 <li className="flex items-start gap-2">
-                  <span className="text-[#0047AB] mt-1">✓</span>
+                  <span className="text-[#000000] mt-1">✓</span>
                   <span>Geotechnical surveys and soil analysis</span>
                 </li>
                 <li className="flex items-start gap-2">
-                  <span className="text-[#0047AB] mt-1">✓</span>
+                  <span className="text-[#000000] mt-1">✓</span>
                   <span>Proper sub-base preparation and compaction</span>
                 </li>
                 <li className="flex items-start gap-2">
-                  <span className="text-[#0047AB] mt-1">✓</span>
+                  <span className="text-[#000000] mt-1">✓</span>
                   <span>Drainage systems (culverts, side drains)</span>
                 </li>
                 <li className="flex items-start gap-2">
-                  <span className="text-[#0047AB] mt-1">✓</span>
+                  <span className="text-[#000000] mt-1">✓</span>
                   <span>Quality aggregate selection and grading</span>
                 </li>
                 <li className="flex items-start gap-2">
-                  <span className="text-[#0047AB] mt-1">✓</span>
+                  <span className="text-[#000000] mt-1">✓</span>
                   <span>Road camber and cross-slope design</span>
                 </li>
               </ul>
@@ -77,23 +77,23 @@ export default function RoadsAndBridgesPage() {
               </p>
               <ul className="space-y-3 text-slate-700">
                 <li className="flex items-start gap-2">
-                  <span className="text-[#0047AB] mt-1">✓</span>
+                  <span className="text-[#000000] mt-1">✓</span>
                   <span>Hydrological studies and flood analysis</span>
                 </li>
                 <li className="flex items-start gap-2">
-                  <span className="text-[#0047AB] mt-1">✓</span>
+                  <span className="text-[#000000] mt-1">✓</span>
                   <span>Foundation design (piles, caissons)</span>
                 </li>
                 <li className="flex items-start gap-2">
-                  <span className="text-[#0047AB] mt-1">✓</span>
+                  <span className="text-[#000000] mt-1">✓</span>
                   <span>Reinforced concrete deck construction</span>
                 </li>
                 <li className="flex items-start gap-2">
-                  <span className="text-[#0047AB] mt-1">✓</span>
+                  <span className="text-[#000000] mt-1">✓</span>
                   <span>Steel girder and truss bridges</span>
                 </li>
                 <li className="flex items-start gap-2">
-                  <span className="text-[#0047AB] mt-1">✓</span>
+                  <span className="text-[#000000] mt-1">✓</span>
                   <span>Safety barriers and approach roads</span>
                 </li>
               </ul>
@@ -108,19 +108,19 @@ export default function RoadsAndBridgesPage() {
             Why Gravel Roads Fail (And How We Prevent It)
           </h2>
           <div className="max-w-4xl mx-auto space-y-6">
-            <div className="bg-white p-8 rounded-xl shadow-sm border-l-4 border-[#0047AB]">
+            <div className="bg-white p-8 rounded-xl shadow-sm border-l-4 border-[#000000]">
               <h3 className="text-xl font-bold mb-3 text-slate-900">Poor Drainage</h3>
               <p className="text-slate-600">
                 Water is the enemy of gravel roads. We design comprehensive drainage systems with proper road camber, side drains, and culverts to prevent water accumulation and erosion.
               </p>
             </div>
-            <div className="bg-white p-8 rounded-xl shadow-sm border-l-4 border-[#0047AB]">
+            <div className="bg-white p-8 rounded-xl shadow-sm border-l-4 border-[#000000]">
               <h3 className="text-xl font-bold mb-3 text-slate-900">Inadequate Compaction</h3>
               <p className="text-slate-600">
                 Loose material leads to rutting and potholes. Our heavy equipment fleet ensures proper compaction at optimal moisture content for maximum density and strength.
               </p>
             </div>
-            <div className="bg-white p-8 rounded-xl shadow-sm border-l-4 border-[#0047AB]">
+            <div className="bg-white p-8 rounded-xl shadow-sm border-l-4 border-[#000000]">
               <h3 className="text-xl font-bold mb-3 text-slate-900">Wrong Material Selection</h3>
               <p className="text-slate-600">
                 Not all gravel is suitable for roads. We conduct material testing to ensure proper gradation, plasticity index, and bearing capacity for long-lasting performance.
@@ -130,7 +130,7 @@ export default function RoadsAndBridgesPage() {
         </div>
       </section>
 
-      <section className="py-24 bg-[#0047AB] text-white">
+      <section className="py-24 bg-[#000000] text-white">
         <div className="container-pad">
           <h2 className="text-4xl font-display font-bold mb-12 text-center">
             Our Equipment Fleet
@@ -169,10 +169,10 @@ export default function RoadsAndBridgesPage() {
             Contact us for feasibility studies, engineering design, and construction services.
           </p>
           <div className="flex flex-wrap gap-4 justify-center">
-            <a href="tel:+251116299824" className="px-8 py-4 bg-[#0047AB] text-white font-bold uppercase tracking-widest hover:bg-[#003380] transition-colors rounded-sm">
+            <a href="tel:+251116299824" className="px-8 py-4 bg-[#000000] text-white font-bold uppercase tracking-widest hover:bg-[#0A0A0A] transition-colors rounded-sm">
               Call: +251 116 29 98 24
             </a>
-            <a href="mailto:tekestetesfaye2@gmail.com" className="px-8 py-4 border-2 border-slate-300 text-slate-900 font-bold uppercase tracking-widest hover:border-[#0047AB] transition-colors rounded-sm">
+            <a href="mailto:tekestetesfaye2@gmail.com" className="px-8 py-4 border-2 border-slate-300 text-slate-900 font-bold uppercase tracking-widest hover:border-[#000000] transition-colors rounded-sm">
               Email Us
             </a>
           </div>

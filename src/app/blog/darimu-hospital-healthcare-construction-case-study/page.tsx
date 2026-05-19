@@ -13,16 +13,16 @@ export default function DarimuHospitalCaseStudy() {
       <nav className="bg-slate-50 py-4 border-b border-slate-200">
         <div className="container-pad">
           <div className="flex items-center gap-2 text-sm text-slate-600">
-            <Link href="/" className="hover:text-[#0047AB]">Home</Link>
+            <Link href="/" className="hover:text-[#000000]">Home</Link>
             <span>/</span>
-            <Link href="/blog" className="hover:text-[#0047AB]">Blog</Link>
+            <Link href="/blog" className="hover:text-[#000000]">Blog</Link>
             <span>/</span>
             <span className="text-slate-900 font-medium">Darimu Hospital Case Study</span>
           </div>
         </div>
       </nav>
 
-      <section className="py-24 bg-gradient-to-br from-[#0047AB] to-[#003380] text-white">
+      <section className="py-24 bg-gradient-to-br from-[#000000] to-[#0A0A0A] text-white">
         <div className="container-pad max-w-4xl">
           <div className="flex items-center gap-4 mb-6">
             <span className="px-3 py-1 bg-white/10 text-white text-xs font-bold uppercase tracking-wider rounded-full">
@@ -76,23 +76,23 @@ export default function DarimuHospitalCaseStudy() {
             </p>
             <ul className="space-y-3 text-slate-700 mb-8">
               <li className="flex items-start gap-3">
-                <span className="text-[#0047AB] text-xl">✓</span>
+                <span className="text-[#000000] text-xl">✓</span>
                 <span><strong>ICU Ward:</strong> 24 beds with specialized HVAC and medical gas systems</span>
               </li>
               <li className="flex items-start gap-3">
-                <span className="text-[#0047AB] text-xl">✓</span>
+                <span className="text-[#000000] text-xl">✓</span>
                 <span><strong>Surgical Suites:</strong> 6 operating rooms with laminar flow air systems</span>
               </li>
               <li className="flex items-start gap-3">
-                <span className="text-[#0047AB] text-xl">✓</span>
+                <span className="text-[#000000] text-xl">✓</span>
                 <span><strong>Emergency Department:</strong> 12 trauma bays with direct ambulance access</span>
               </li>
               <li className="flex items-start gap-3">
-                <span className="text-[#0047AB] text-xl">✓</span>
+                <span className="text-[#000000] text-xl">✓</span>
                 <span><strong>Diagnostic Imaging:</strong> X-ray, CT, and ultrasound facilities</span>
               </li>
               <li className="flex items-start gap-3">
-                <span className="text-[#0047AB] text-xl">✓</span>
+                <span className="text-[#000000] text-xl">✓</span>
                 <span><strong>Laboratory:</strong> Full diagnostic lab with automated systems</span>
               </li>
             </ul>
@@ -116,7 +116,7 @@ export default function DarimuHospitalCaseStudy() {
               </p>
             </div>
 
-            <div className="bg-blue-50 border-l-4 border-blue-500 p-6 mb-8">
+            <div className="bg-amber-50 border-l-4 border-amber-500 p-6 mb-8">
               <h3 className="font-bold text-slate-900 mb-3">Infection Control Standards</h3>
               <p className="text-slate-700">
                 Meeting international infection control standards required specialized materials, HVAC design, and construction sequencing to prevent contamination during build-out.
@@ -168,19 +168,19 @@ export default function DarimuHospitalCaseStudy() {
               <h3 className="text-2xl font-bold mb-4 text-slate-900">Quantifiable Outcomes</h3>
               <div className="grid md:grid-cols-2 gap-6">
                 <div>
-                  <div className="text-4xl font-bold text-[#0047AB] mb-2">2 weeks</div>
+                  <div className="text-4xl font-bold text-[#000000] mb-2">2 weeks</div>
                   <div className="text-slate-700">Ahead of schedule</div>
                 </div>
                 <div>
-                  <div className="text-4xl font-bold text-[#0047AB] mb-2">0</div>
+                  <div className="text-4xl font-bold text-[#000000] mb-2">0</div>
                   <div className="text-slate-700">Safety incidents</div>
                 </div>
                 <div>
-                  <div className="text-4xl font-bold text-[#0047AB] mb-2">97%</div>
+                  <div className="text-4xl font-bold text-[#000000] mb-2">97%</div>
                   <div className="text-slate-700">Budget accuracy</div>
                 </div>
                 <div>
-                  <div className="text-4xl font-bold text-[#0047AB] mb-2">LEED Silver</div>
+                  <div className="text-4xl font-bold text-[#000000] mb-2">LEED Silver</div>
                   <div className="text-slate-700">Sustainability certification</div>
                 </div>
               </div>
@@ -205,16 +205,16 @@ export default function DarimuHospitalCaseStudy() {
               By demonstrating that world-class healthcare facilities can be built on time and on budget in Ethiopia, we're helping pave the way for increased investment in the sector. The LEED certification also shows that sustainable, energy-efficient healthcare is achievable in our climate.
             </p>
 
-            <div className="bg-[#0047AB] text-white p-8 rounded-xl mt-12">
+            <div className="bg-[#000000] text-white p-8 rounded-xl mt-12">
               <h3 className="text-2xl font-bold mb-4">Planning a Healthcare Facility?</h3>
               <p className="text-white/90 mb-6">
                 Contact our healthcare construction specialists for project planning and consultation. We bring 29+ years of experience and proven expertise in complex medical facilities.
               </p>
               <div className="flex flex-wrap gap-4">
-                <a href="tel:+251116299824" className="px-6 py-3 bg-white text-[#0047AB] font-bold uppercase tracking-wider hover:bg-slate-100 transition-colors rounded-sm text-sm">
+                <a href="tel:+251116299824" className="px-6 py-3 bg-white text-[#000000] font-bold uppercase tracking-wider hover:bg-slate-100 transition-colors rounded-sm text-sm">
                   Call: +251 116 29 98 24
                 </a>
-                <a href="mailto:tekestetesfaye2@gmail.com" className="px-6 py-3 border-2 border-white text-white font-bold uppercase tracking-wider hover:bg-white hover:text-[#0047AB] transition-colors rounded-sm text-sm">
+                <a href="mailto:tekestetesfaye2@gmail.com" className="px-6 py-3 border-2 border-white text-white font-bold uppercase tracking-wider hover:bg-white hover:text-[#000000] transition-colors rounded-sm text-sm">
                   Email Us
                 </a>
               </div>

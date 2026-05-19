@@ -1,28 +1,16 @@
 @import "tailwindcss";
 
 :root {
-  /* STRICT LIGHT MODE PALETTE */
-
-  --primary-blue: #0047AB;
-  /* Logo Cobalt */
-  --primary-hover: #003380;
-
-  --accent-yellow: #F4E486;
-  /* Logo Yellow */
-  --accent-yellow-dark: #D4C060;
-
+  --primary-black: #000000;
+  --primary-black-soft: #0A0A0A;
+  --accent-amber: #D88A00;
+  --accent-amber-deep: #A86500;
   --bg-white: #ffffff;
   --bg-slate: #f8fafc;
-  /* Slate 50 */
-  --bg-slate-dark: #e2e8f0;
-  /* Slate 200 */
-
-  --text-main: #0f172a;
-  /* Slate 900 */
-  --text-muted: #475569;
-  /* Slate 600 */
-
-  /* Fonts */
+  --bg-dark: #000000;
+  --bg-dark-mid: #0A0A0A;
+  --text-main: #0a0a0a;
+  --text-muted: #525252;
   --font-display: var(--font-syne), sans-serif;
   --font-body: var(--font-dm-sans), sans-serif;
   --font-ethiopic: var(--font-noto-ethiopic), sans-serif;
@@ -33,8 +21,21 @@
   --font-body: var(--font-body);
   --font-ethiopic: var(--font-ethiopic);
 
-  --color-brand-blue: var(--primary-blue);
-  --color-brand-yellow: var(--accent-yellow);
+  --color-brand-black: var(--primary-black);
+  --color-brand-amber: var(--accent-amber);
+  --color-brand-amber-deep: var(--accent-amber-deep);
+
+  /* Override Tailwind's amber palette to the brand amber */
+  --color-amber-50: #FFF8EC;
+  --color-amber-100: #FDEFCF;
+  --color-amber-200: #FADFA0;
+  --color-amber-300: #F4C868;
+  --color-amber-400: #E8A52E;
+  --color-amber-500: #D88A00;
+  --color-amber-600: #A86500;
+  --color-amber-700: #855000;
+  --color-amber-800: #623B00;
+  --color-amber-900: #422800;
 }
 
 body {
@@ -53,26 +54,43 @@ h6 {
 }
 
 /* Utilities */
-.text-brand-blue {
-  color: var(--primary-blue);
+.text-brand-black {
+  color: var(--primary-black);
 }
 
-.bg-brand-blue {
-  background-color: var(--primary-blue);
+.bg-brand-black {
+  background-color: var(--primary-black);
 }
 
-.border-brand-blue {
-  border-color: var(--primary-blue);
+.border-brand-black {
+  border-color: var(--primary-black);
+}
+
+.text-brand-amber {
+  color: var(--accent-amber);
+}
+
+.bg-brand-amber {
+  background-color: var(--accent-amber);
+}
+
+.border-brand-amber {
+  border-color: var(--accent-amber);
 }
 
 .container-pad {
   @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
 }
 
-/* Grid Pattern for Texture */
-.grid-pattern {
-  background-size: 40px 40px;
-  background-image:
-    linear-gradient(to right, #f1f5f9 1px, transparent 1px),
-    linear-gradient(to bottom, #f1f5f9 1px, transparent 1px);
+/* Smooth scroll */
+html {
+  scroll-behavior: smooth;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
 }

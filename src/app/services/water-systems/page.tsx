@@ -19,9 +19,9 @@ export default function WaterSystemsPage() {
       <nav className="bg-slate-50 py-4 border-b border-slate-200">
         <div className="container-pad">
           <div className="flex items-center gap-2 text-sm text-slate-600">
-            <Link href="/" className="hover:text-[#0047AB]">Home</Link>
+            <Link href="/" className="hover:text-[#000000]">Home</Link>
             <span>/</span>
-            <Link href="/services" className="hover:text-[#0047AB]">Services</Link>
+            <Link href="/services" className="hover:text-[#000000]">Services</Link>
             <span>/</span>
             <span className="text-slate-900 font-medium">Water Systems</span>
           </div>
@@ -29,7 +29,7 @@ export default function WaterSystemsPage() {
       </nav>
 
       {/* Hero Section */}
-      <section className="py-24 bg-gradient-to-br from-[#0047AB] to-[#003380] text-white">
+      <section className="py-24 bg-gradient-to-br from-[#000000] to-[#0A0A0A] text-white">
         <div className="container-pad">
           <div className="max-w-4xl">
             <div className="inline-block px-4 py-2 bg-white/10 rounded-full text-sm font-bold uppercase tracking-wider mb-6">
@@ -42,10 +42,10 @@ export default function WaterSystemsPage() {
               Building Ethiopia's water security through expertly designed reservoir systems, well drilling, and distribution networks. Our water infrastructure projects serve over 500,000 Ethiopians with reliable, clean water access.
             </p>
             <div className="flex flex-wrap gap-4">
-              <a href="#contact" className="px-8 py-4 bg-white text-[#0047AB] font-bold uppercase tracking-widest hover:bg-slate-100 transition-colors rounded-sm">
+              <a href="#contact" className="px-8 py-4 bg-white text-[#000000] font-bold uppercase tracking-widest hover:bg-slate-100 transition-colors rounded-sm">
                 Request Quote
               </a>
-              <a href="#projects" className="px-8 py-4 border-2 border-white text-white font-bold uppercase tracking-widest hover:bg-white hover:text-[#0047AB] transition-colors rounded-sm">
+              <a href="#projects" className="px-8 py-4 border-2 border-white text-white font-bold uppercase tracking-widest hover:bg-white hover:text-[#000000] transition-colors rounded-sm">
                 View Projects
               </a>
             </div>
@@ -73,19 +73,19 @@ export default function WaterSystemsPage() {
               </p>
               <ul className="space-y-2 text-slate-700">
                 <li className="flex items-start gap-2">
-                  <span className="text-[#0047AB] mt-1">✓</span>
+                  <span className="text-[#000000] mt-1">✓</span>
                   <span>Hydrological surveys and site analysis using GIS</span>
                 </li>
                 <li className="flex items-start gap-2">
-                  <span className="text-[#0047AB] mt-1">✓</span>
+                  <span className="text-[#000000] mt-1">✓</span>
                   <span>Structural design meeting international standards</span>
                 </li>
                 <li className="flex items-start gap-2">
-                  <span className="text-[#0047AB] mt-1">✓</span>
+                  <span className="text-[#000000] mt-1">✓</span>
                   <span>Waterproofing and leak prevention systems</span>
                 </li>
                 <li className="flex items-start gap-2">
-                  <span className="text-[#0047AB] mt-1">✓</span>
+                  <span className="text-[#000000] mt-1">✓</span>
                   <span>Automated level monitoring and control</span>
                 </li>
               </ul>
@@ -98,19 +98,19 @@ export default function WaterSystemsPage() {
               </p>
               <ul className="space-y-2 text-slate-700">
                 <li className="flex items-start gap-2">
-                  <span className="text-[#0047AB] mt-1">✓</span>
+                  <span className="text-[#000000] mt-1">✓</span>
                   <span>Pipe sizing calculations and hydraulic modeling</span>
                 </li>
                 <li className="flex items-start gap-2">
-                  <span className="text-[#0047AB] mt-1">✓</span>
+                  <span className="text-[#000000] mt-1">✓</span>
                   <span>HDPE, PVC, and steel pipe installation</span>
                 </li>
                 <li className="flex items-start gap-2">
-                  <span className="text-[#0047AB] mt-1">✓</span>
+                  <span className="text-[#000000] mt-1">✓</span>
                   <span>Pressure reducing valves and control systems</span>
                 </li>
                 <li className="flex items-start gap-2">
-                  <span className="text-[#0047AB] mt-1">✓</span>
+                  <span className="text-[#000000] mt-1">✓</span>
                   <span>Leak detection and prevention infrastructure</span>
                 </li>
               </ul>
@@ -123,19 +123,19 @@ export default function WaterSystemsPage() {
               </p>
               <ul className="space-y-2 text-slate-700">
                 <li className="flex items-start gap-2">
-                  <span className="text-[#0047AB] mt-1">✓</span>
+                  <span className="text-[#000000] mt-1">✓</span>
                   <span>Geophysical surveys for optimal well placement</span>
                 </li>
                 <li className="flex items-start gap-2">
-                  <span className="text-[#0047AB] mt-1">✓</span>
+                  <span className="text-[#000000] mt-1">✓</span>
                   <span>Drilling depths up to 300 meters</span>
                 </li>
                 <li className="flex items-start gap-2">
-                  <span className="text-[#0047AB] mt-1">✓</span>
+                  <span className="text-[#000000] mt-1">✓</span>
                   <span>Submersible pump installation and testing</span>
                 </li>
                 <li className="flex items-start gap-2">
-                  <span className="text-[#0047AB] mt-1">✓</span>
+                  <span className="text-[#000000] mt-1">✓</span>
                   <span>Water quality analysis and treatment recommendations</span>
                 </li>
               </ul>
@@ -148,19 +148,19 @@ export default function WaterSystemsPage() {
               </p>
               <ul className="space-y-2 text-slate-700">
                 <li className="flex items-start gap-2">
-                  <span className="text-[#0047AB] mt-1">✓</span>
+                  <span className="text-[#000000] mt-1">✓</span>
                   <span>Sand filtration and sedimentation tanks</span>
                 </li>
                 <li className="flex items-start gap-2">
-                  <span className="text-[#0047AB] mt-1">✓</span>
+                  <span className="text-[#000000] mt-1">✓</span>
                   <span>Chlorination systems and dosing equipment</span>
                 </li>
                 <li className="flex items-start gap-2">
-                  <span className="text-[#0047AB] mt-1">✓</span>
+                  <span className="text-[#000000] mt-1">✓</span>
                   <span>Water quality testing laboratories</span>
                 </li>
                 <li className="flex items-start gap-2">
-                  <span className="text-[#0047AB] mt-1">✓</span>
+                  <span className="text-[#000000] mt-1">✓</span>
                   <span>Operator training and maintenance protocols</span>
                 </li>
               </ul>
@@ -178,21 +178,21 @@ export default function WaterSystemsPage() {
             </h2>
 
             <div className="space-y-8">
-              <div className="bg-white p-8 rounded-xl shadow-sm border-l-4 border-[#0047AB]">
+              <div className="bg-white p-8 rounded-xl shadow-sm border-l-4 border-[#000000]">
                 <h3 className="text-xl font-bold mb-3 text-slate-900">GIS-Based Site Analysis</h3>
                 <p className="text-slate-600">
                   We utilize Geographic Information System (GIS) technology to analyze topography, population distribution, and existing infrastructure. This ensures optimal placement of water sources and distribution networks for maximum efficiency and coverage.
                 </p>
               </div>
 
-              <div className="bg-white p-8 rounded-xl shadow-sm border-l-4 border-[#0047AB]">
+              <div className="bg-white p-8 rounded-xl shadow-sm border-l-4 border-[#000000]">
                 <h3 className="text-xl font-bold mb-3 text-slate-900">Sustainable Design Principles</h3>
                 <p className="text-slate-600">
                   Our water systems are designed for 25+ year operational life with minimal maintenance requirements. We incorporate renewable energy options (solar pumping), water conservation features, and climate-resilient infrastructure.
                 </p>
               </div>
 
-              <div className="bg-white p-8 rounded-xl shadow-sm border-l-4 border-[#0047AB]">
+              <div className="bg-white p-8 rounded-xl shadow-sm border-l-4 border-[#000000]">
                 <h3 className="text-xl font-bold mb-3 text-slate-900">Community Engagement</h3>
                 <p className="text-slate-600">
                   Every water project includes community consultation, operator training, and establishment of water committees for long-term sustainability. We transfer knowledge to ensure communities can maintain their water systems independently.
@@ -204,7 +204,7 @@ export default function WaterSystemsPage() {
       </section>
 
       {/* Impact Stats */}
-      <section className="py-24 bg-[#0047AB] text-white">
+      <section className="py-24 bg-[#000000] text-white">
         <div className="container-pad">
           <h2 className="text-4xl font-display font-bold mb-16 text-center">
             Our Water Infrastructure Impact
@@ -241,10 +241,10 @@ export default function WaterSystemsPage() {
               Contact our water systems specialists for feasibility studies, project planning, and construction services.
             </p>
             <div className="flex flex-wrap gap-4 justify-center">
-              <a href="tel:+251116299824" className="px-8 py-4 bg-[#0047AB] text-white font-bold uppercase tracking-widest hover:bg-[#003380] transition-colors rounded-sm">
+              <a href="tel:+251116299824" className="px-8 py-4 bg-[#000000] text-white font-bold uppercase tracking-widest hover:bg-[#0A0A0A] transition-colors rounded-sm">
                 Call: +251 116 29 98 24
               </a>
-              <a href="mailto:tekestetesfaye2@gmail.com" className="px-8 py-4 border-2 border-slate-300 text-slate-900 font-bold uppercase tracking-widest hover:border-[#0047AB] hover:text-[#0047AB] transition-colors rounded-sm">
+              <a href="mailto:tekestetesfaye2@gmail.com" className="px-8 py-4 border-2 border-slate-300 text-slate-900 font-bold uppercase tracking-widest hover:border-[#000000] hover:text-[#000000] transition-colors rounded-sm">
                 Email Us
               </a>
             </div>

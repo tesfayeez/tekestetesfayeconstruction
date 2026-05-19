@@ -58,7 +58,7 @@ export function Breadcrumb() {
               ) : (
                 <Link 
                   href={crumb.href} 
-                  className="hover:text-[#0047AB] transition-colors"
+                  className="hover:text-[#000000] transition-colors"
                 >
                   {crumb.label}
                 </Link>

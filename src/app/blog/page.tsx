@@ -58,7 +58,7 @@ const blogPosts = [
 export default function BlogPage() {
   return (
     <main className="min-h-screen bg-white">
-      <section className="py-24 bg-gradient-to-br from-[#0047AB] to-[#003380] text-white">
+      <section className="py-24 bg-gradient-to-br from-[#000000] to-[#0A0A0A] text-white">
         <div className="container-pad">
           <div className="max-w-4xl">
             <h1 className="text-5xl md:text-6xl font-display font-bold mb-6">
@@ -79,17 +79,17 @@ export default function BlogPage() {
                 <Link
                   key={post.slug}
                   href={`/blog/${post.slug}`}
-                  className="group block bg-white border-2 border-slate-200 rounded-xl p-8 hover:border-[#0047AB] hover:shadow-xl transition-all duration-300"
+                  className="group block bg-white border-2 border-slate-200 rounded-xl p-8 hover:border-[#000000] hover:shadow-xl transition-all duration-300"
                 >
                   <div className="flex items-center gap-4 mb-4">
-                    <span className="px-3 py-1 bg-[#0047AB] text-white text-xs font-bold uppercase tracking-wider rounded-full">
+                    <span className="px-3 py-1 bg-[#000000] text-white text-xs font-bold uppercase tracking-wider rounded-full">
                       {post.category}
                     </span>
                     <span className="text-sm text-slate-500">{post.readTime}</span>
                     <span className="text-sm text-slate-500">•</span>
                     <span className="text-sm text-slate-500">{post.date}</span>
                   </div>
-                  <h2 className="text-3xl font-display font-bold mb-4 text-slate-900 group-hover:text-[#0047AB] transition-colors">
+                  <h2 className="text-3xl font-display font-bold mb-4 text-slate-900 group-hover:text-[#000000] transition-colors">
                     {post.title}
                   </h2>
                   <p className="text-lg text-slate-600 mb-4 leading-relaxed">
@@ -98,7 +98,7 @@ export default function BlogPage() {
                   <div className="text-sm text-slate-500 mb-4">
                     <strong>Keywords:</strong> {post.keywords}
                   </div>
-                  <div className="flex items-center gap-2 text-[#0047AB] font-bold">
+                  <div className="flex items-center gap-2 text-[#000000] font-bold">
                     Read Full Article
                     <span className="group-hover:translate-x-2 transition-transform">→</span>
                   </div>
@@ -117,7 +117,7 @@ export default function BlogPage() {
           <p className="text-lg text-slate-600 mb-8 max-w-2xl mx-auto">
             Contact our team for expert advice on your construction project.
           </p>
-          <a href="tel:+251116299824" className="inline-block px-8 py-4 bg-[#0047AB] text-white font-bold uppercase tracking-widest hover:bg-[#003380] transition-colors rounded-sm">
+          <a href="tel:+251116299824" className="inline-block px-8 py-4 bg-[#000000] text-white font-bold uppercase tracking-widest hover:bg-[#0A0A0A] transition-colors rounded-sm">
             Call: +251 116 29 98 24
           </a>
         </div>

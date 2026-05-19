@@ -10,7 +10,7 @@ export const metadata: Metadata = {
 export default function AboutPage() {
   return (
     <main className="min-h-screen bg-white">
-      <section className="py-24 bg-gradient-to-br from-[#0047AB] to-[#003380] text-white">
+      <section className="py-24 bg-gradient-to-br from-[#000000] to-[#0A0A0A] text-white">
         <div className="container-pad">
           <div className="max-w-4xl">
             <h1 className="text-5xl md:text-6xl font-display font-bold mb-6">
@@ -72,25 +72,25 @@ export default function AboutPage() {
         <div className="container-pad max-w-4xl">
           <h2 className="text-4xl font-display font-bold mb-8 text-slate-900">Our Values</h2>
           <div className="space-y-6">
-            <div className="border-l-4 border-[#0047AB] pl-6">
+            <div className="border-l-4 border-[#000000] pl-6">
               <h3 className="text-2xl font-bold mb-3 text-slate-900">Quality First</h3>
               <p className="text-lg text-slate-700">
                 We never compromise on quality. Every project is built to last 25+ years with proper maintenance.
               </p>
             </div>
-            <div className="border-l-4 border-[#0047AB] pl-6">
+            <div className="border-l-4 border-[#000000] pl-6">
               <h3 className="text-2xl font-bold mb-3 text-slate-900">Safety Always</h3>
               <p className="text-lg text-slate-700">
                 Zero incidents is our standard. We invest in safety training, equipment, and protocols to protect every worker.
               </p>
             </div>
-            <div className="border-l-4 border-[#0047AB] pl-6">
+            <div className="border-l-4 border-[#000000] pl-6">
               <h3 className="text-2xl font-bold mb-3 text-slate-900">Community Impact</h3>
               <p className="text-lg text-slate-700">
                 Our projects transform communities. We measure success not just in buildings, but in lives improved.
               </p>
             </div>
-            <div className="border-l-4 border-[#0047AB] pl-6">
+            <div className="border-l-4 border-[#000000] pl-6">
               <h3 className="text-2xl font-bold mb-3 text-slate-900">Innovation</h3>
               <p className="text-lg text-slate-700">
                 We embrace modern technology—BIM, GIS, digital project management—while respecting proven construction fundamentals.
@@ -100,7 +100,7 @@ export default function AboutPage() {
         </div>
       </section>
 
-      <section className="py-24 bg-[#0047AB] text-white">
+      <section className="py-24 bg-[#000000] text-white">
         <div className="container-pad text-center">
           <h2 className="text-4xl font-display font-bold mb-6">
             Ready to Work With Us?
@@ -109,10 +109,10 @@ export default function AboutPage() {
             Contact our team to discuss your construction project.
           </p>
           <div className="flex flex-wrap gap-4 justify-center">
-            <a href="tel:+251116299824" className="px-8 py-4 bg-white text-[#0047AB] font-bold uppercase tracking-widest hover:bg-slate-100 transition-colors rounded-sm">
+            <a href="tel:+251116299824" className="px-8 py-4 bg-white text-[#000000] font-bold uppercase tracking-widest hover:bg-slate-100 transition-colors rounded-sm">
               Call: +251 116 29 98 24
             </a>
-            <a href="mailto:tekestetesfaye2@gmail.com" className="px-8 py-4 border-2 border-white text-white font-bold uppercase tracking-widest hover:bg-white hover:text-[#0047AB] transition-colors rounded-sm">
+            <a href="mailto:tekestetesfaye2@gmail.com" className="px-8 py-4 border-2 border-white text-white font-bold uppercase tracking-widest hover:bg-white hover:text-[#000000] transition-colors rounded-sm">
               Email Us
             </a>
           </div>

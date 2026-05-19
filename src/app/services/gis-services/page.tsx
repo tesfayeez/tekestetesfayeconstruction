@@ -13,16 +13,16 @@ export default function GISServicesPage() {
       <nav className="bg-slate-50 py-4 border-b border-slate-200">
         <div className="container-pad">
           <div className="flex items-center gap-2 text-sm text-slate-600">
-            <Link href="/" className="hover:text-[#0047AB]">Home</Link>
+            <Link href="/" className="hover:text-[#000000]">Home</Link>
             <span>/</span>
-            <Link href="/services" className="hover:text-[#0047AB]">Services</Link>
+            <Link href="/services" className="hover:text-[#000000]">Services</Link>
             <span>/</span>
             <span className="text-slate-900 font-medium">GIS Services</span>
           </div>
         </div>
       </nav>
 
-      <section className="py-24 bg-gradient-to-br from-[#0047AB] to-[#003380] text-white">
+      <section className="py-24 bg-gradient-to-br from-[#000000] to-[#0A0A0A] text-white">
         <div className="container-pad">
           <div className="max-w-4xl">
             <h1 className="text-5xl md:text-6xl font-display font-bold mb-6">
@@ -47,19 +47,19 @@ export default function GISServicesPage() {
               </p>
               <ul className="space-y-4 text-slate-700">
                 <li className="flex items-start gap-3">
-                  <span className="text-[#0047AB] text-xl">✓</span>
+                  <span className="text-[#000000] text-xl">✓</span>
                   <span>Where is the optimal location for this facility?</span>
                 </li>
                 <li className="flex items-start gap-3">
-                  <span className="text-[#0047AB] text-xl">✓</span>
+                  <span className="text-[#000000] text-xl">✓</span>
                   <span>What is the terrain slope and drainage pattern?</span>
                 </li>
                 <li className="flex items-start gap-3">
-                  <span className="text-[#0047AB] text-xl">✓</span>
+                  <span className="text-[#000000] text-xl">✓</span>
                   <span>Where are existing utilities and infrastructure?</span>
                 </li>
                 <li className="flex items-start gap-3">
-                  <span className="text-[#0047AB] text-xl">✓</span>
+                  <span className="text-[#000000] text-xl">✓</span>
                   <span>How will this project impact the surrounding area?</span>
                 </li>
               </ul>
@@ -126,10 +126,10 @@ export default function GISServicesPage() {
             Contact us for GIS site analysis and infrastructure planning services.
           </p>
           <div className="flex flex-wrap gap-4 justify-center">
-            <a href="tel:+251116299824" className="px-8 py-4 bg-[#0047AB] text-white font-bold uppercase tracking-widest hover:bg-[#003380] transition-colors rounded-sm">
+            <a href="tel:+251116299824" className="px-8 py-4 bg-[#000000] text-white font-bold uppercase tracking-widest hover:bg-[#0A0A0A] transition-colors rounded-sm">
               Call: +251 116 29 98 24
             </a>
-            <a href="mailto:tekestetesfaye2@gmail.com" className="px-8 py-4 border-2 border-slate-300 text-slate-900 font-bold uppercase tracking-widest hover:border-[#0047AB] transition-colors rounded-sm">
+            <a href="mailto:tekestetesfaye2@gmail.com" className="px-8 py-4 border-2 border-slate-300 text-slate-900 font-bold uppercase tracking-widest hover:border-[#000000] transition-colors rounded-sm">
               Email Us
             </a>
           </div>

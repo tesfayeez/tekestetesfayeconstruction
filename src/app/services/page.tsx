@@ -71,7 +71,7 @@ export default function ServicesPage() {
   return (
     <main className="min-h-screen bg-white">
       {/* Hero Section */}
-      <section className="bg-gradient-to-br from-[#0047AB] to-[#003380] text-white py-24">
+      <section className="bg-gradient-to-br from-[#000000] to-[#0A0A0A] text-white py-24">
         <div className="container-pad">
           <div className="max-w-4xl">
             <h1 className="text-5xl md:text-6xl font-display font-bold mb-6">
@@ -92,10 +92,10 @@ export default function ServicesPage() {
               <Link
                 key={service.slug}
                 href={`/services/${service.slug}`}
-                className="group bg-white border-2 border-slate-200 rounded-xl p-8 hover:border-[#0047AB] hover:shadow-xl transition-all duration-300"
+                className="group bg-white border-2 border-slate-200 rounded-xl p-8 hover:border-[#000000] hover:shadow-xl transition-all duration-300"
               >
                 <div className="text-5xl mb-6">{service.icon}</div>
-                <h2 className="text-2xl font-display font-bold mb-4 text-slate-900 group-hover:text-[#0047AB] transition-colors">
+                <h2 className="text-2xl font-display font-bold mb-4 text-slate-900 group-hover:text-[#000000] transition-colors">
                   {service.title}
                 </h2>
                 <p className="text-slate-600 mb-6 leading-relaxed">
@@ -104,7 +104,7 @@ export default function ServicesPage() {
                 <div className="text-sm text-slate-500 mb-4">
                   <strong>Specialties:</strong> {service.keywords}
                 </div>
-                <div className="flex items-center gap-2 text-[#0047AB] font-bold">
+                <div className="flex items-center gap-2 text-[#000000] font-bold">
                   Learn More
                   <span className="group-hover:translate-x-2 transition-transform">→</span>
                 </div>
@@ -153,7 +153,7 @@ export default function ServicesPage() {
       </section>
 
       {/* CTA Section */}
-      <section className="py-24 bg-[#0047AB] text-white">
+      <section className="py-24 bg-[#000000] text-white">
         <div className="container-pad text-center">
           <h2 className="text-4xl font-display font-bold mb-6">
             Ready to Start Your Project?
@@ -164,13 +164,13 @@ export default function ServicesPage() {
           <div className="flex flex-wrap gap-4 justify-center">
             <a
               href="tel:+251116299824"
-              className="px-8 py-4 bg-white text-[#0047AB] font-bold uppercase tracking-widest hover:bg-slate-100 transition-colors rounded-sm"
+              className="px-8 py-4 bg-white text-[#000000] font-bold uppercase tracking-widest hover:bg-slate-100 transition-colors rounded-sm"
             >
               Call: +251 116 29 98 24
             </a>
             <a
               href="mailto:tekestetesfaye2@gmail.com"
-              className="px-8 py-4 border-2 border-white text-white font-bold uppercase tracking-widest hover:bg-white hover:text-[#0047AB] transition-colors rounded-sm"
+              className="px-8 py-4 border-2 border-white text-white font-bold uppercase tracking-widest hover:bg-white hover:text-[#000000] transition-colors rounded-sm"
             >
               Email Us
             </a>

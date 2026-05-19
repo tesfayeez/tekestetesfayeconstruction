@@ -13,16 +13,16 @@ export default function TVETFacilityBlog() {
       <nav className="bg-slate-50 py-4 border-b border-slate-200">
         <div className="container-pad">
           <div className="flex items-center gap-2 text-sm text-slate-600">
-            <Link href="/" className="hover:text-[#0047AB]">Home</Link>
+            <Link href="/" className="hover:text-[#000000]">Home</Link>
             <span>/</span>
-            <Link href="/blog" className="hover:text-[#0047AB]">Blog</Link>
+            <Link href="/blog" className="hover:text-[#000000]">Blog</Link>
             <span>/</span>
             <span className="text-slate-900 font-medium">TVET Construction</span>
           </div>
         </div>
       </nav>
 
-      <section className="py-24 bg-gradient-to-br from-[#0047AB] to-[#003380] text-white">
+      <section className="py-24 bg-gradient-to-br from-[#000000] to-[#0A0A0A] text-white">
         <div className="container-pad max-w-4xl">
           <div className="flex items-center gap-4 mb-6">
             <span className="px-3 py-1 bg-white/10 text-white text-xs font-bold uppercase tracking-wider rounded-full">
@@ -115,7 +115,7 @@ export default function TVETFacilityBlog() {
               International TVET standards (German dual system, Australian TAFE model) provide excellent frameworks, but they must be adapted to Ethiopian realities:
             </p>
 
-            <div className="bg-blue-50 p-8 rounded-xl mb-8">
+            <div className="bg-amber-50 p-8 rounded-xl mb-8">
               <h4 className="font-bold text-slate-900 mb-3">Challenge: Equipment Availability</h4>
               <p className="text-slate-700 mb-4">
                 International TVET centers use the latest machinery. In Ethiopia, students need to learn on equipment they'll actually encounter in local workshops.
@@ -149,16 +149,16 @@ export default function TVETFacilityBlog() {
               We spent time with instructors understanding their teaching methods. We observed how students move through workshops. We learned that a well-designed TVET center isn't just about square meters—it's about creating an environment where hands-on learning thrives.
             </p>
 
-            <div className="bg-[#0047AB] text-white p-8 rounded-xl mt-12">
+            <div className="bg-[#000000] text-white p-8 rounded-xl mt-12">
               <h3 className="text-2xl font-bold mb-4">Planning an Educational Facility?</h3>
               <p className="text-white/90 mb-6">
                 Whether you're building a TVET center, primary school, or university facility, our team brings educational construction expertise and understanding of learning environments.
               </p>
               <div className="flex flex-wrap gap-4">
-                <a href="tel:+251116299824" className="px-6 py-3 bg-white text-[#0047AB] font-bold uppercase tracking-wider hover:bg-slate-100 transition-colors rounded-sm text-sm">
+                <a href="tel:+251116299824" className="px-6 py-3 bg-white text-[#000000] font-bold uppercase tracking-wider hover:bg-slate-100 transition-colors rounded-sm text-sm">
                   Call: +251 116 29 98 24
                 </a>
-                <a href="mailto:tekestetesfaye2@gmail.com" className="px-6 py-3 border-2 border-white text-white font-bold uppercase tracking-wider hover:bg-white hover:text-[#0047AB] transition-colors rounded-sm text-sm">
+                <a href="mailto:tekestetesfaye2@gmail.com" className="px-6 py-3 border-2 border-white text-white font-bold uppercase tracking-wider hover:bg-white hover:text-[#000000] transition-colors rounded-sm text-sm">
                   Email Us
                 </a>
               </div>

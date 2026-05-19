@@ -13,16 +13,16 @@ export default function TigrayPage() {
       <nav className="bg-slate-50 py-4 border-b border-slate-200">
         <div className="container-pad">
           <div className="flex items-center gap-2 text-sm text-slate-600">
-            <Link href="/" className="hover:text-[#0047AB]">Home</Link>
+            <Link href="/" className="hover:text-[#000000]">Home</Link>
             <span>/</span>
-            <Link href="/locations" className="hover:text-[#0047AB]">Locations</Link>
+            <Link href="/locations" className="hover:text-[#000000]">Locations</Link>
             <span>/</span>
             <span className="text-slate-900 font-medium">Tigray</span>
           </div>
         </div>
       </nav>
 
-      <section className="py-24 bg-gradient-to-br from-[#0047AB] via-[#0052BD] to-[#0066DD] text-white">
+      <section className="py-24 bg-gradient-to-br from-[#000000] via-[#0052BD] to-[#0066DD] text-white">
         <div className="container-pad">
           <div className="max-w-4xl">
             <h1 className="text-5xl md:text-6xl font-display font-bold mb-6">
@@ -59,7 +59,7 @@ export default function TigrayPage() {
           <h2 className="text-3xl font-display font-bold mb-6 text-slate-900">
             Contact Us for Tigray Projects
           </h2>
-          <a href="tel:+251116299824" className="inline-block px-8 py-4 bg-[#0047AB] text-white font-bold uppercase tracking-widest hover:bg-[#003380] transition-colors rounded-sm">
+          <a href="tel:+251116299824" className="inline-block px-8 py-4 bg-[#000000] text-white font-bold uppercase tracking-widest hover:bg-[#0A0A0A] transition-colors rounded-sm">
             Call: +251 116 29 98 24
           </a>
         </div>
